@@ -1,0 +1,51 @@
+/*=============================================
+=            FOUNDATION                      =
+=============================================*/
+
+/**
+ *
+ * This file defines actual colors for styling
+ *
+ */
+
+/*=============================================
+=            Global text colors               =
+=============================================*/
+$body-text-color: var(--dsf-body-text-color, $dark) !default;
+$body-bg-color: var(--dsf-body-bg-color, $white) !default;
+
+/*=====  End of Global text colors  ======*/
+
+/*=============================================
+=            Button                           =
+=============================================*/
+
+$btn-primary-color: var(--dsf-btn-primary-color, $white) !default;
+$btn-primary-bg: var(--dsf-btn-primary-bg, $green) !default;
+$btn-primary-bg-hover: var(--dsf-btn-primary-bg-hover, $green-light) !default;
+
+/*=============================================
+=                   Forms                     =
+=============================================*/
+$form-color: var(--dsf-form-color, $dark) !default;
+$form-bg: var(--dsf-form-bg, $white) !default;
+$form-error-color: var(--dsf-form-error-color, $red) !default;
+$form-error-border: var(--dsf-form-error-border, $red) !default;
+$form-border-focus-color: var(--dsf-form-border-focus-color, $green) !default;
+
+/*=============================================
+=            Appbar colors                    =
+=============================================*/
+
+$app-bar-color: var(--dsf-app-bar-color, $white) !default;
+$app-bar-text-color: var(--dsf-app-bar-text-color, $grey) !default;
+$app-bar-elevation: var(--dsf-app-bar-elevation, $grey-light) !default;
+
+/*=============================================
+=            Floating buttons                 =
+=============================================*/
+
+$ft-btn-bg: var(--dsf-ft-btn-bg, $blue) !default;
+$ft-btn-icon-color: var(--dsf-ft-btn-icon-color, $white) !default;
+$ft-btn-clicked-bg: var(--dsf-ft-btn-clicked-bg, $blue-light) !default;
+$ft-btn-elevatio0n: var(--dsf-ft-btn-elevation, $grey-light) !default;
