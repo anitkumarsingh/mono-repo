@@ -1,11 +1,9 @@
 import React from 'react';
 
 interface ButtonProps {
-  label: string
+  label: String
 }
-
 const Button: React.FunctionComponent<ButtonProps> = ({ label }) => {
-  return <button>{label}</button>;
+  return (<button>{label}</button>)
 }
-
 export default Button;
