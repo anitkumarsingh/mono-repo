@@ -4,6 +4,6 @@ interface ButtonProps {
   label: String
 }
 const Button: React.FunctionComponent<ButtonProps> = ({ label }) => {
-  return (<button>{label}</button>)
+  return (<button className='dsf-btn-container'>{label}</button>)
 }
 export default Button;

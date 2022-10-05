@@ -1,5 +1,9 @@
-@import "foundations/all";
+@import 'foundations/all';
 
---dsf-btn-container {
-  display: flex;
+.dsf-btn-container {
+	display: flex;
+	background-color: $btn-primary-bg;
+	color: $btn-primary-color;
+	border: none;
+	padding: map-get($spacing , 'xxs' );
 }

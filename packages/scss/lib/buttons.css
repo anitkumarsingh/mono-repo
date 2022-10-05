@@ -114,6 +114,10 @@
  * styles for components.
  *
  */
---dsf-btn-container {
+.dsf-btn-container {
   display: flex;
+  background-color: var(--dsf-btn-primary-bg, #5ece7b);
+  color: var(--dsf-btn-primary-color, #fff);
+  border: none;
+  padding: 0.5rem;
 }
